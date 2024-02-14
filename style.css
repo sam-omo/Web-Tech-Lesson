@@ -1,0 +1,60 @@
+/* (width 600px, top-margin: 25px, padding: 25px (top) 150px (left&right) 50px (bottom)) */
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  width: 600px;
+  margin: 25px auto;
+  padding-top: 25px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 50px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+h1,
+h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 2.5px;
+}
+
+h2 {
+  margin-top: 50px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#html {
+  color: #1774bb;
+}
+
+#css {
+  color: #f15c2a;
+}
+
+#javascript {
+  color: #fcb041;
+}
+
+a {
+  color: navy;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+img {
+  margin: auto;
+  display: block;
+}
+
+html {
+  background-image: url(img/tech-background.webp);
+  background-size: cover;
+}
